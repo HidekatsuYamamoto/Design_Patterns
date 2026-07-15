@@ -1,0 +1,13 @@
+練習問題
+●問題2-1
+　サンプルプログラムでは、PrintBaneerクラスのインスタンスを作るときに、
+　次のようにPrint型の変数に代入しています。
+ Print p = new PrintBaneer("Hello);
+ なぜ、次のようにPrintBanner型の変数に代入しないのでしょう。
+ PrintBaneer p = new PrintBaneer("Hello);
+
+●解答2-1
+　Printインタフェースに従って動作をさせる。
+　PrintBannerクラス内に変更が起こってもPrintインタフェースに
+　従った動作ルールさえ変わらなければ影響はない。
+　
