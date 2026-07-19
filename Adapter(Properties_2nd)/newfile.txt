@@ -1,0 +1,5 @@
+#written by FileProperties
+#Sun Jul 19 12:12:30 JST 2026
+day=21
+month=4
+year=2004

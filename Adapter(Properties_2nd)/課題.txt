@@ -1,0 +1,23 @@
+●問題２－２
+java.util.Propertiesクラスは、
+year=2004
+month=4
+day=21
+のような、キーとその値の組（プロパティ）を管理するためのものです。
+java.util.Propertiesクラスには、プロパティをストリームより読み込んだり、ストリームに書いたりするために、
+次のメソッドが用意されています。
+
+void load(InputStream in) throws IOException
+プロパティの集合をInputStreamから読み込む
+
+void store(OutputStream out, String header) throws IOException
+プロパティの集合をOutputStreamに書き込む。headerはコメント
+
+<お題>
+Adapterパターンを使って、プロパティの集合をファイルに保存するFilePropertiesクラスを作ってください。
+
+<STEP>
+１．学んだ内容を元にお題のクラスをあてはめていく（Adapterクラス学習資料.xls）。
+２．スケルトンをコーディングする。
+３．java.util.Propertiesクラスを学ぶため、リファレンスを見ながら実装して動かしてみる(Adapter(Properties)\FileProperties.java)。
+４．練習問題で指定されたMain.java、入力ファイル例、出力ファイル例に沿って解答をコーディングする（Adapter(Properties_2nd)）。
